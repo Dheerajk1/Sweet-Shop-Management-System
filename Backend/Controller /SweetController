@@ -1,0 +1,44 @@
+package com.sweetshop.backend.controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
+import com.sweetshop.backend.entity.Sweet;
+import com.sweetshop.backend.service.SweetService;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@CrossOrigin(origins = "http://localhost:3000") // ✅ ADD THIS LINE
+@RestController
+@RequestMapping("/api/sweets")
+public class SweetController {
+
+    private final SweetService sweetService;
+
+    public SweetController(SweetService sweetService) {
+        this.sweetService = sweetService;
+    }
+
+    // CREATE
+    @PostMapping
+    public Sweet addSweet(@RequestBody Sweet sweet) {
+        return sweetService.addSweet(sweet);
+    }
+
+    // READ ALL
+    @GetMapping
+    public List<Sweet> getAllSweets() {
+        return sweetService.getAllSweets();
+    }
+
+    // READ BY ID
+    @GetMapping("/{id}")
+    public Sweet getSweetById(@PathVariable Long id) {
+        return sweetService.getSweetById(id);
+    }
+
+    // DELETE
+    @DeleteMapping("/{id}")
+    public void deleteSweet(@PathVariable Long id) {
+        sweetService.deleteSweet(id);
+    }
+}
