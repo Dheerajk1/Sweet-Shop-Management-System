@@ -1,0 +1,100 @@
+body {
+  background: linear-gradient(135deg, #f6f8fc, #e9eef5);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 25px;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.add-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #4CAF50, #43a047);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  opacity: 0.9;
+}
+
+.sweet-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.sweet-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease;
+}
+
+.sweet-card:hover {
+  transform: translateY(-3px);
+}
+
+.sweet-info b {
+  font-size: 16px;
+}
+
+.sweet-info span {
+  display: block;
+  margin-top: 5px;
+  color: #555;
+}
+
+.delete-btn {
+  background: #ff4d4f;
+  border: none;
+  padding: 8px 14px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.delete-btn:hover {
+  background: #e53935;
+}
