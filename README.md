@@ -20,9 +20,15 @@ The application allows users to **add, view, and delete sweets** through a clean
 
 - <img width="944" height="1037" alt="Screenshot 2025-12-14 160355" src="https://github.com/user-attachments/assets/745f8bc7-ae56-43fd-b6e3-dcec7af58f31" />
 
+
+
 - <img width="945" height="1070" alt="Screenshot 2025-12-14 163355" src="https://github.com/user-attachments/assets/d62f0fcf-b833-4fc9-b112-5eca1d192d07" />
 
+
+
 - <img width="891" height="876" alt="Screenshot 2025-12-14 173220" src="https://github.com/user-attachments/assets/4039eb23-28f0-44f9-b9c8-b71fc4221fce" />
+
+
 
 - <img width="891" height="876" alt="Screenshot 2025-12-14 173220" src="https://github.com/user-attachments/assets/cab34cef-1540-45ce-893c-b005922f3fb1" />
 
@@ -59,7 +65,13 @@ The application allows users to **add, view, and delete sweets** through a clean
 
 ## 📂 Project Structure
 
-<img width="637" height="434" alt="image" src="https://github.com/user-attachments/assets/033f960f-6043-4a89-a9ab-0d1a690a8240" />
+- Backend:
+- <img width="358" height="509" alt="image" src="https://github.com/user-attachments/assets/f2e7b52d-716a-4ddd-aabf-7895bf52aa6e" />
+
+
+- Frontend:
+- <img width="250" height="501" alt="image" src="https://github.com/user-attachments/assets/0e98d6c3-8737-4e21-90b6-1933cc870cbf" />
+
 
 
 
