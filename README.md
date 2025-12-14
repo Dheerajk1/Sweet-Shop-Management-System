@@ -135,8 +135,8 @@ Co-authored-by: ChatGPT <chatgpt@openai.com>
 
 ## Author
 
-Dheeraj Kumar
-Computer Science Engineering
+- Dheeraj Kumar
+- Bachelor of Computer Science and Engineering 
 
 
 
